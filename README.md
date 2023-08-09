@@ -21,7 +21,7 @@ sudo apt-get install g++ libx11-dev libxext-dev qtbase5-dev libqt5svg5-dev libqt
 ```
 2. Download the repository
 ```sh
-git clone
+git clone https://github.com/tsujan/Kvantum.git && cd Kvantum/Kvantum/
 ```
 3. Compile and install the program on your machine.
 ```sh
