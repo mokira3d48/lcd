@@ -14,6 +14,7 @@ sudo apt install chromium-browser
 Compatible for KDE only.
 
 ### Installation
+#### For KDE Ubuntu or Kubuntu
 1. Installation of dependencies
 ```sh
 sudo apt-get install g++ libx11-dev libxext-dev qtbase5-dev libqt5svg5-dev libqt5x11extras5-dev libkf5windowsystem-dev qttools5-dev-tools cmake checkinstall
@@ -29,3 +30,9 @@ cmake ..;\
 make;\
 sudo make install
 ```
+
+#### For KDE Kali linux
+```
+sudo apt-get -y install qt5-style-kvantum
+```
+
